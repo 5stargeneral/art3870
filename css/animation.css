@@ -1,0 +1,77 @@
+/* this is my stylesheet for the homepage */
+/* table of contents */
+/* header styles */
+/* main body styles */
+/* footer styles */
+
+h1{font-family: 'Chewy', cursive;}
+header{}
+header h1 {color: red; background-color: yellow; font-size: }
+#navigation{font-size: 25px;
+}
+p{
+  font-family: 'Kaushan Script', cursive;
+  color: white;
+}
+footer{color: white;}
+
+body{background-color: black;}
+
+/* The animation code */
+ @keyframes example {
+    0%   {background-color:red; left:0px; top:0px;}
+    25%  {background-color:yellow; left:200px; top:0px;}
+    50%  {background-color:blue; left:200px; top:200px;}
+    75%  {background-color:green; left:0px; top:200px;}
+    100% {background-color:red; left:0px; top:0px;}
+
+}
+
+/* The element to apply the animation to */
+div {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    background-color: red;
+    animation-name: example;
+    animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate-reverse;
+
+}
+.circle{
+  border-radius: 25px;
+    background: #73AD21;
+    padding: 20px;
+    width: 200px;
+    height: 150px;  
+}
+
+.slow{
+  width: 50px;
+  height: 50px;
+  position: relative;
+  background-color: white;
+  animation-name: example;
+  animation-duration: 7s;
+animation-iteration-count: infinite;
+animation-direction: alternate;
+}
+
+.middle{
+  width: 200px;
+  height: 200px;
+  position: relative;
+  background-color: grey;
+  animation-name: example;
+  animation-duration: 5s;
+animation-iteration-count: infinite;
+animation-direction: normal;
+}
+
+
+/* header styles*/
+
+/* main body styles */
+
+/* footer styles */

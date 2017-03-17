@@ -1,1 +1,3 @@
-# art3870
+# art3870-wi17
+> welcome to my repo
+## Jonathan Amey Jr

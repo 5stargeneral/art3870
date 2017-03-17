@@ -1,0 +1,61 @@
+
+body{background-image:url("../images/imgres.jpg");
+}
+
+h1{
+  height:350px;
+  width:350px;
+  border:1px solid red;
+  position:absolute;
+
+}
+#wrapper{
+  width:300px;
+  height:10000px;
+
+  position:relative;
+  margin:0 auto;
+  overflow:visible;
+}
+
+
+#one{
+  background:red;
+  top:10px;
+  left:-50px;
+  position: absolute;
+  display: none;
+}
+
+
+#two{background:yellow;
+    top:350px;
+    left:200px;
+    position: absolute;
+  display: none;
+
+  }
+
+#three{background:orange;
+top:100px; left:-200px; position: absolute;
+  display: none;}
+
+
+#four{
+  background:blue;
+  top:150px;
+  left:200px;
+  display: none;
+  position: absolute;
+
+}
+
+
+#five{background:green;
+top:300px; left:-200px; position: absolute;
+  display: none;}
+
+#six{background:purple;
+top:500px; left:50px; position: absolute;
+  display: none;
+}
